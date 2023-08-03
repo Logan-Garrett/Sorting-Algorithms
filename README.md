@@ -1,5 +1,4 @@
-# Sorting-Algorithms
-## List ##
+# Sorting-Algorithms #
 - Quick Sort
 - Merge Sort
 - Heap Sort
@@ -8,4 +7,5 @@
 - Shell Sort
 - Tree Sort
 
+##
 ~ May Add More ~
