@@ -6,6 +6,3 @@
 - Bubble Sort
 - Shell Sort
 - Tree Sort
-
-##
-~ May Add More ~
