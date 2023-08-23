@@ -7,7 +7,8 @@ void insertionSort() {
     	int i = 0;
     	int j = i + 1;
 
-    	printf("Start ");
+    	printf("Pre-Sort: ");
+	printf("%d %d %d %d %d %d %d %d %d\n", array[0], array[1], array[2], array[3], array[4], array[5], array[6], array[7], array[8]);
 
     	while (i < 9) {
 		while (array[j] < array[i]) {
@@ -16,11 +17,12 @@ void insertionSort() {
 			array[j] = tmp;
         		i--;
 			j = i + 1;
-			printf("i: %d, j: %d\n", i, j);
+			// printf("i: %d, j: %d\n", array[i], array[j]);
 		}
 		i++;
 		j = i + 1;
     	}
+	printf("Post-Sort: ");
 	printf("%d %d %d %d %d %d %d %d %d\n", array[0], array[1], array[2], array[3], array[4], array[5], array[6], array[7], array[8]);
 }
 
